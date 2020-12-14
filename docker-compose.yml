@@ -1,0 +1,49 @@
+
+version: '3'
+
+services:
+
+  
+    
+  # ganache-cli ethereum node
+#  ganache:
+#    image: trufflesuite/ganache-cli
+#    command: "--seed abcd --defaultBalanceEther 100000000"
+#    ports: 
+#      - "8545:8545"
+    
+  dapp:
+
+    build:
+
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+   # env_file:
+    #  - ./app/.env
+    volumes:
+      - ./app/src:/dapp/app/src
+      
+    ports: 
+      - "3000:3000"
+    #  - "7545:7545"
+        
+    
+#  smart-contracts:
+
+#    build:
+#      context: ./app/smart-contracts
+#      dockerfile: Dockerfile
+    #depends_on:
+     # - ganache 
+   
+    
+#    volumes:
+      # mount the output contract build files into a host folder
+#      - ./app/smart-contracts/src/build:/dapp/app/src/build
+#    ports: 
+#      - "8545:8545"
+  
+    
+    
+    

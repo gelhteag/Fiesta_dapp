@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>FIESTA</title>
+<link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqY6EigcUDVaxyf92T7IOau0y07kV8htetNg&usqp=CAU">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+    
+
+        	
+    <div class="w3-bar w3-black w3-card">
+    
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <div class="w3-bar w3-red w3-card">
+
+        
+       
+        </div>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#festival" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FESTIVAL</a>
+        <a href="#market" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MARKET</a>
+        <a href="#SECONDARY" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SECONDARY</a>
+        
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#festival" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FESTIVAL</a>
+    <a href="#market" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MARKET</a>
+    <a href="#SECONDARY" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SECONDARY</a>
+   
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+        <img src="https://i.imgur.com/X5mSSIo.jpg" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Fiesta</h3>
+        <p><b>Bring you to the decentralised ticket Festival</b></p>
+        </div>
+    </div>
+
+
+    <!-- The festival Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="festival">
+        <h2 class="w3-wide">FIESTA</h2>
+        <p class="w3-opacity"><i>We love music</i></p>
+        <p class="w3-justify">NFT based tickets plateform which will disrupt the FESTIVAL market sell by enabling the digitalisation of this sector.</p>
+        <div class="w3-row w3-padding-32">
+        <div class="w3-center">
+            <p>Start your journey</p>
+            <img src="https://i.imgur.com/3V3NQTJ.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        </div>
+        </div>
+    </div>
+
+    <!-- The Market Section -->
+    <div class="w3-black" id="market">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center">Tickets MARKET</h2>
+        <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr8EtFipwLlmKQmo3SniWXI_PkVvUsN58yw&usqp=CAU"  style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('coinModal').style.display='block'">Buy FST</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr8EtFipwLlmKQmo3SniWXI_PkVvUsN58yw&usqp=CAU"  style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr8EtFipwLlmKQmo3SniWXI_PkVvUsN58yw&usqp=CAU"  style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('infoModal').style.display='block'">Information</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Ticket Modal -->
+    <div id="ticketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById('ticketModal').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+            <span id="setBuyInfo"></span>
+        </header>
+        <div class="w3-container">
+            <p><label><i class="fa fa-shopping-cart"></i> Tickets: 100 FST</label></p>       
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="buyTicket" onclick="App.buyTicket()">PAY <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+    <!-- Coin Modal -->
+    <div id="coinModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById('coinModal').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-money w3-margin-right"></i>Tickets</h2>
+        </header>
+        <div class="w3-container">
+            <p><label><i class="fa fa-money"></i> COIN: 1000 FST per 1 ETH </label></p>
+            <input class="w3-input w3-border" type="text" id="amount" placeholder="Enter the amount">
+                   
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="buyCoin" onclick="App.buyCoin()">PAY <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('coinModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+     <!-- Info Modal -->
+    <div id="infoModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById('infoModal').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-info-circle w3-margin-right"></i>Market Info</h2>
+            <span id="status"></span>
+        </header>
+        <div class="w3-container">
+            <p><label><i class="fa fa-info-circle"></i>Information </label></p>                              
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="buyCoin" onclick="App.getInfo()"> Info <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('infoModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+            <span id="status"></span>
+        </div>
+        </div>
+    </div>
+    
+    
+      <!-- The Secondary Market Section -->
+    <div class="w3-black" id="seconDmarket">
+        <div class="w3-container w3-center w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center">Secondary Tickets MARKET</h2>
+        <p class="w3-opacity w3-center"><i>Sell your tickets!</i></p><br>
+
+         <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr8EtFipwLlmKQmo3SniWXI_PkVvUsN58yw&usqp=CAU"  style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('saleTicketModal').style.display='block'">Sale Tickets</button>
+            </div>
+            </div>
+         <div class="w3-third w3-margin-bottom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr8EtFipwLlmKQmo3SniWXI_PkVvUsN58yw&usqp=CAU"  style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('getTicketForSale').style.display='block'">Get Tickets for sale</button>
+            </div>
+            </div>
+         <div class="w3-third w3-margin-bottom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr8EtFipwLlmKQmo3SniWXI_PkVvUsN58yw&usqp=CAU"  style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('buyTicketModal').style.display='block'">Buy Tickets</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    
+    <!--getBalanceModal -->
+    <div id="getTicketForSale" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+        
+            <span onclick="document.getElementById('getTicketForSale').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-ticket w3-margin-right"></i>Tickets For Sale</h2>
+            <span id="setBalance">
+        </header>
+        <div class="w3-container">
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="getTicketForSale" onclick="App.getTicketForSale()">getTicketForSale <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('getTicketForSale').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+      <!-- Not Used for the moment getBalanceModal -->
+    <div id="backupgetBalanceModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById('getBalanceModal').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+            <span id="setBalance"></span>
+        </header>
+        <div class="w3-container ">
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="getBalance" onclick="App.getTicketForSale()">Balance <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('getBalanceModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+    
+    <span id="setBalance"></span>
+    
+    <!--saleTicketModal -->
+    <div id="saleTicketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById('saleTicketModal').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-ticket w3-margin-right"></i>Tickets</h2>
+        </header>
+        <div class="w3-container ">
+             <div class="w3-container">
+            <p><label><i class="fa fa-ticket"></i> Sale your ticket</label></p>
+            <input class="w3-input w3-border" type="text" id="tradePrice" placeholder="Enter your price">
+            <p><label><i class="fa fa-user"></i> Enter id ticket</label></p>
+            <input class="w3-input w3-border" type="text" id="idT" placeholder="Enter id Ticket">
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="createStar" onclick="App.openTrade()">PAY <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('saleTicketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--buyTicketModal -->
+    <div id="buyTicketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById('buyTicketModal').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-handshake-o w3-margin-right"></i>Tickets</h2>
+        </header>
+        <div class="w3-container ">
+            <div class="w3-container">
+            <p><label><i class="fa fa-shopping-cart"></i> Buy your ticket</label></p>
+            <input class="w3-input w3-border" type="text" id="tradePriceEx" placeholder="Enter the trade Price">
+            <p><label><i class="fa fa-user"></i> Id ticket</label></p>
+            <input class="w3-input w3-border" type="text" id="idTicket" placeholder="Enter id Ticket">
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"id="executeTrade" onclick="App.executeTrade()">PAY <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('buyTicketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+         </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    
+
+
+    <!-- End Page Content -->
+    
+
+    <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
+    </script>
+    <script src="index.js"></script>
+    </body>
+</html>
