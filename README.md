@@ -74,8 +74,19 @@ To do so , you used the link below and follow the instructions
 #### Step 2: Go to  //0.0.0.0:3000 or click on the link [dapp](//0.0.0.0:3000)
 #### Step 3: In the Market section 
 Click on the **Buy FST** button  and put the amount of  FST that you want purchase, for exemple 1 then click pay you will get 100 FST (1 ETH : 100 FST).
+
+
+
+
 ![image output](https://i.imgur.com/rHWCfHG.png)
+
+
+
+
 A pop-up will appear in order to sign the transaction with your metamask wallet, click confirmed.
+
+
+
 ![image output](https://i.imgur.com/DV7JoxN.png)
 
 
@@ -92,6 +103,7 @@ When  tickets are put on secondary market  "Ticket for sale" someone can click o
 ![image output](https://i.imgur.com/cGa5BVe.png)
 
 
+
 Not that the button Information gives the following information :
 - Total supply of ticket that will never be creat
 - Number of ticket owned by individuals but not offered for sale
@@ -99,6 +111,9 @@ Not that the button Information gives the following information :
 - Ticket available on the market (from the organiser and individuals)
 
 ![image output](https://i.imgur.com/58ZzCly.png)
+
+
+
 So lastly, if someone want to buy a ticket on the secondary market 
 he must first see if tickets are on sale and if so he must give the price and the id of the desired ticket.
 
