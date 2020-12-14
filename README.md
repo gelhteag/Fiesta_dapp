@@ -1,5 +1,4 @@
-
-![Fiesta_dapp(https://i.imgur.com/X5mSSIo.jpg)
+[![image output](https://i.imgur.com/X5mSSIo.jpg)]
 # Fiesta_dapp
 Full disclamer:
 This project code was to explored the technology and it is the opposite of a boilerplate.
