@@ -33,7 +33,7 @@ contract FiestaERC721 is ERC721 {
         returns  (uint256)
     {
         uint256 liMint = _tokenIds.current();
-        require(liMint <= 1000,"SOLD OUT");
+        require(liMint < 1000,"SOLD OUT");
         _tokenIds.increment();
         uint256 newTicket = _tokenIds.current();
         _mint(_marketAddress, newTicket);
