@@ -51,7 +51,7 @@ $ git clone https://github.com/gelhteag/Fiesta_dapp.git
 ```
 ### spin up the dapp
 ```
-$ cd path of the directory of the project
+$ cd Fiesta_dapp 
 $ sudo docker-compose build
 $ sudo docker-compose up
 ```
