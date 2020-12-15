@@ -45,8 +45,10 @@ Please follow the instructions provided by:
 Please follow the instructions provided by  [Metamask](https://metamask.io/download.html)
 Then create a wallet, in order to interact with the dapp.
 ### Download the project 
-Clone the  provide [repository](https://github.com/gelhteag/Computer-Pointer-Controller)
-
+Clone the  provide repo or download the zip
+```sh
+$ git clone https://github.com/gelhteag/Fiesta_dapp.git
+```
 ### spin up the dapp
 ```sh
 $ cd path of the directory of the project
