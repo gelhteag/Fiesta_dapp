@@ -46,11 +46,11 @@ Please follow the instructions provided by  [Metamask](https://metamask.io/downl
 Then create a wallet, in order to interact with the dapp.
 ### Download the project 
 Clone the  provide repo or download the zip
-```sh
+```
 $ git clone https://github.com/gelhteag/Fiesta_dapp.git
 ```
 ### spin up the dapp
-```sh
+```
 $ cd path of the directory of the project
 $ sudo docker-compose build
 $ sudo docker-compose up
