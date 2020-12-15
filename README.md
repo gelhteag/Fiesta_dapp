@@ -14,10 +14,10 @@ For this purpose, I used ganache from [trufflesuite](https://www.trufflesuite.co
 ###### The developpement and the test were done on a  Ubuntu 20.04.1 LTS -v focal.
 ### Case : 
 1.	Create a non-fungible token that represents tickets for a festival and a fungible currency token using Solidity. 
-o	Create a supply of maximum 1000 tickets
-o	Tickets can be bought from the organizer at a fixed price in the currency token.
-o	Create a Market place where tickets can be resold or bought back by individuals, but the price can never be higher than 110% of the previous sale
-o	Add a monetization option for the organizer in the secondary market sales
+-	Create a supply of maximum 1000 tickets
+-	Tickets can be bought from the organizer at a fixed price in the currency token.
+-	Create a Market place where tickets can be resold or bought back by individuals, but the price can never be higher than 110% of the previous sale
+-	Add a monetization option for the organizer in the secondary market sales
 2.	Create a small web app to show the current state (supply, what the accounts own, balances) and buttons to demonstrate the different functions.
 
 ## Architecture dapp:
