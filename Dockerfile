@@ -17,14 +17,14 @@ COPY contracts /dapp/contracts
 COPY migrations /dapp/migrations
 COPY package-lock.json /dapp/package-lock.json
 COPY truffle-config.js /dapp/truffle-config.js
-
+RUN npm i
 #RUN npm install #--no-progress --ignore-optional
 #RUN npm i truffle -g 
 #RUN ["truffle", "compile"]
 #RUN ["truffle", "migrate "]
 #COPY src/build    /dapp/app/src/build
 WORKDIR /dapp/app
-
+RUN npm i
 CMD ["npm", "run", "build"]
 CMD ["npm", "run", "dev"]
 #EXPOSE 7545
