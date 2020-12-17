@@ -21,8 +21,8 @@ For this purpose, I used ganache from [trufflesuite](https://www.trufflesuite.co
 2.	Create a small web app to show the current state (supply, what the accounts own, balances) and buttons to demonstrate the different functions.
 
 ## Architecture dapp:
- - Frontend: Webpack
- - Backend: NodeJS
+ - Frontend: Webpack/NodeJS
+ - Backend: Ethereum Blockchain (testnet rinkeby)
 
 ## Module used:
  - Truffle v5.1.54
