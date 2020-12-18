@@ -80,7 +80,7 @@ To do so , you use the link below and follow the instructions
 - https://faucet.rinkeby.io/
 #### Step 2: Go to  //0.0.0.0:3000 or click on the link [dapp](//0.0.0.0:3000)
 #### Step 3: In the Market section 
-Click on the **Buy FST** button  and put the amount of  FST that you want purchase, for exemple 1 then click pay you will get 100 FST (1 ETH : 100 FST).
+Click on the **Buy FST** button  and put the amount of  FST that you want purchase, for exemple 1 then click pay you will get 1000 FST (1 ETH : 1000 FST).
 
 
 
