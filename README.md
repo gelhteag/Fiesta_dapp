@@ -7,33 +7,47 @@ Having said this, welcome.
 ![image output](https://i.imgur.com/X5mSSIo.jpg) 
 
 
-# FIESTA : NFT & FT 
 
-This project aims to use the blockchain technology in a practical case as fun way to learn code and software around this ecosystem.
-For this purpose, I used ganache from [trufflesuite](https://www.trufflesuite.com/ganache) easy to used and install. It gives the possibility to deploy a private ethereum network in order to compile, deploy and test smart-contract before production in a safe environement.
-###### The developpement and the test were done on a  Ubuntu 20.04.1 LTS -v focal.
-### Case : 
-1.	Create a non-fungible token that represents tickets for a festival and a fungible currency token using Solidity. 
--	Create a supply of maximum 1000 tickets
--	Tickets can be bought from the organizer at a fixed price in the currency token.
--	Create a Market place where tickets can be resold or bought back by individuals, but the price can never be higher than 110% of the previous sale
--	Add a monetization option for the organizer in the secondary market sales
-2.	Create a small web app to show the current state (supply, what the accounts own, balances) and buttons to demonstrate the different functions.
+# FIESTA: NFT & FT
 
-## Architecture dapp:
- - Frontend: Webpack-NodeJS-Metamask
- - Backend: Ethereum Blockchain (testnet rinkeby)
+**FIESTA: NFT & FT** is a decentralized application (dApp) that leverages blockchain technology to provide a fun and practical platform for learning coding and software development within the blockchain ecosystem. By integrating Non-Fungible Tokens (NFTs) and Fungible Tokens (FTs), FIESTA offers an engaging way to understand smart contracts, decentralized marketplaces, and blockchain interactions through the context of festival ticketing.
 
-## Module used:
- - Truffle v5.1.54
- - node v11.15.0
- - npm v6.7.0
- - OpenZeppelin v6.7.0
- - truffle-hdwallet-provider
- - web3 v6.7.0
- - CopyWebpackPlugin v6.7.0
- 
+---
 
+## 🌟 Project Overview
+
+FIESTA: NFT & FT aims to utilize blockchain technology in a practical and enjoyable manner to educate users about coding and software development within the blockchain ecosystem. By using Ganache from Truffle Suite, the project deploys a private Ethereum network, allowing for the compilation, deployment, and testing of smart contracts in a secure environment before moving to production.
+
+### 📌 Key Features
+
+- **NFT-Based Tickets**: Create and manage up to 1,000 unique festival tickets represented as NFTs.
+- **Fungible Currency Token**: Utilize a native FT for seamless transactions within the ecosystem.
+- **Fixed Pricing**: Organizers can sell tickets at a fixed price using the native currency token.
+- **Marketplace**:
+  - **Resale Cap**: Tickets can be resold or bought back by individuals with the resale price capped at 110% of the previous sale to ensure fair pricing.
+  - **Monetization**: Organizers earn a commission from secondary market sales.
+- **User-Friendly Web App**:
+  - Real-time display of ticket supply, account holdings, and currency balances.
+  - Interactive buttons to perform actions like purchasing and reselling tickets.
+
+---
+
+## 🛠️ Technologies Used
+
+### **Architecture dApp**
+
+- **Frontend**: Webpack, Node.js, MetaMask
+- **Backend**: Ethereum Blockchain (Testnet Rinkeby)
+
+### **Modules**
+
+- **Truffle**: v5.1.54
+- **Node.js**: v11.15.0
+- **npm**: v6.7.0
+- **OpenZeppelin**: v6.7.0
+- **truffle-hdwallet-provider**
+- **web3**: v6.7.0
+- **CopyWebpackPlugin**: v6.7.0
 ## Getting Started
 
 ### Prerequisites
