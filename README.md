@@ -132,12 +132,3 @@ he must first see if tickets are on sale and if so he must give the price and th
 So now,the loop is complete !!!
 Finaly , take in mind that it is just an easy exemple and a funny way to create a dapp on the ethereum network.
 
-## Improvement clue:
-Everything can be improved of course, this project was meant to explored the technology and is the opposite of a boilerplate code.
-At docker-compose level, the possibility of being able to migrate new version of contracts from the containers is missing.
-
-- One solution coud be to create 3 containers, one containing the dapp, one containing an image of ganache-cli and one containing the contracts.
-The goal would be to be able to have access without installation worries to a contairiser development station giving the possibility to test the contracts inside the ganache privat network container to finally be able to deploy the contract terminating on the mainnet / testnet. Without having to make a local installation. And spin all in one command.
-
-
-At the  contracts level, an improvement of the implementation, or a more in-depth test must be done in order to take into account the gas consumption that may caused by certain redundancy or poor implementation. In addition, "potential" flaws can lead to unespected behavior of contracts with catastrophic surprises in production. And the modifications / repairs at this stage become perilous !
